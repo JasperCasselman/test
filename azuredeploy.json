@@ -191,9 +191,7 @@
                             "office365": {
                                 "connectionId": "[resourceId('Microsoft.Web/connections', variables('connectionsOffice365Name'))]",
                                 "connectionName": "office365",
-                                "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/
-                                
-                                us/managedApis/', variables('connectionsOffice365Name'))]"
+                                "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/eastus/managedApis/', variables('connectionsOffice365Name'))]"
                             }
                         }
                     }
