@@ -191,7 +191,9 @@
                             "office365": {
                                 "connectionId": "[resourceId('Microsoft.Web/connections', variables('connectionsOffice365Name'))]",
                                 "connectionName": "office365",
-                                "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/eastus/managedApis/', variables('connectionsOffice365Name'))]"
+                                "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/
+                                
+                                us/managedApis/', variables('connectionsOffice365Name'))]"
                             }
                         }
                     }
@@ -218,7 +220,7 @@
             "type": "Microsoft.StreamAnalytics/streamingjobs",
             "name": "[variables('streamingJobsName')]",
             "apiVersion": "2016-03-01",
-            "location": "East US",
+            "location": "West Europe",
             "properties": {
                 "sku": {
                     "name": "Standard"
